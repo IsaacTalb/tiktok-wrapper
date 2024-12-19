@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=TikTok Wrapper
+Comment=A wrapper for TikTok functionality
+Exec=$SNAP/TikTok-linux-x64/TikTok
+Icon=$SNAP/TikTok-linux-x64/resources/app/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;
