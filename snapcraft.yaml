@@ -1,0 +1,32 @@
+name: tiktok-wrapper
+base: core22
+version: '1.0'
+summary: TikTok Wrapper
+description: A wrapper for TikTok functionality.
+
+grade: stable
+confinement: strict
+
+apps:
+  tiktok-wrapper:
+    command: desktop-launch $SNAP/TikTok-linux-x64/resources/app/lib/main.js
+    desktop: share/applications/tiktok-wrapper.desktop
+    environment:
+      DISPLAY: ':0'
+    plugs:
+      - desktop
+      - desktop-legacy
+      - x11
+      - wayland
+      - network
+
+parts:
+  tiktok-wrapper:
+    plugin: dump
+    source: .
+    stage-packages:
+      - libgconf-2-4
+      - libappindicator1
+    override-build: |
+      snapcraftctl build
+      cp -r TikTok-linux-x64 $SNAP

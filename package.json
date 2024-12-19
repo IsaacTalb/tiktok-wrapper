@@ -1,0 +1,11 @@
+{
+  "name": "tiktok-wrapper",
+  "version": "1.0.0",
+  "dependencies": {
+    "some-package": "^1.0.0"
+  },
+  "author": {
+    "name": "Isaac Talb",
+    "email": "isaac@duckcloud.info"
+  }
+}
