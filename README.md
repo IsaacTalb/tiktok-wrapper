@@ -9,7 +9,7 @@ TikTok Wrapper is a lightweight desktop application for accessing TikTok. This p
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/tiktok-wrapper.git
+   git clone https://github.com/IsaacTalb/tiktok-wrapper.git
 
 2. Navigate to the project folder:
    ```bash
