@@ -7,6 +7,7 @@ TikTok Wrapper is a lightweight desktop application for accessing TikTok. This p
 - Lightweight and easy to use
 
 ## How to Use
+If the cloning is not working you can download source code from mega.io : https://mega.nz/folder/a7pQiDJD#vv-_fAZqG4mH6mGBi8j5aQ || The reason why you need to download is that in this repo, there is missing folder call tiktok-wrapper/TikTok-linux-x64/TikTok . So no worry, you can just check the structure as this repo and you are all good to go!
 1. Clone this repository:
    ```bash
    git clone https://github.com/IsaacTalb/tiktok-wrapper.git
